@@ -7,13 +7,23 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^2.5.22",
+    "@fortawesome/fontawesome-svg-core": "^1.2.14",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "axios": "^0.18.0",
+    "date-fns": "^1.30.1",
+    "escape-html": "^1.0.3",
+    "jspdf": "^1.4.1",
+    "jspdf-autotable": "^2.3.5",
+    "lodash-es": "^4.17.11",
+    "phila-standards": "^1.0.2",
+    "vue": "2.5.22",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "2.5.22",
+    "webpack-visualizer-plugin": "^0.1.11"
   },
   "postcss": {
     "plugins": {
